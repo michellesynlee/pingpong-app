@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(199, 151, 230);
+}
+  
+canvas {
+    background: white;
+    border: 4px solid #9b35af;
+    border-radius: 20px;
+}
+
+#restartBtn {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Press Start 2P', monospace;
+    font-size: 20px;
+    padding: 12px 24px;
+    background-color: #9b35af;
+    color: white;
+    border: white;
+    border-radius: 9px;
+    cursor: pointer;
+}
+  
+#restartBtn:hover {
+    background-color: #a585bc;
+}
